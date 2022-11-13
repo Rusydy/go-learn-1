@@ -1,0 +1,30 @@
+_id: req_d2200481e0614513be7768162bba5ff3
+type: Request
+parentId: wrk_acd5bfca824a40d3bf5e79be2481a997
+modified: 1668345384827
+created: 1668284541168
+url: "{{ _.base_url }}/albums"
+name: new album
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "The Modern Sound of Betty Carter",
+    	"artist": "Betty Carter",
+    	"price": 49.99
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668284541168
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

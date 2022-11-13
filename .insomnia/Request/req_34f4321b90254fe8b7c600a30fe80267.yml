@@ -1,0 +1,21 @@
+_id: req_34f4321b90254fe8b7c600a30fe80267
+type: Request
+parentId: wrk_acd5bfca824a40d3bf5e79be2481a997
+modified: 1668345175390
+created: 1668284338092
+url: "{{ _.base_url }}/albums/1"
+name: get album by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1666458841569.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
